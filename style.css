@@ -1,0 +1,28 @@
+body{
+    background-color: #255fff;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color:#fcfcfc;
+    margin:0;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    color:#faffb4
+}
+p{
+    font-size: 20px;
+    line-height: 1,5;
+}
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 213, 165);
+}
