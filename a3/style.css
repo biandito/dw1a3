@@ -1,0 +1,18 @@
+body{
+    margin: 50px;
+}
+ul{
+    color: #ffffff;
+    display: inline;
+    margin: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+li{
+    display:inline;
+}
+.text{
+    position: relative;
+
+}
