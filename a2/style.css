@@ -1,10 +1,31 @@
 body{
-    background-color: #255fff;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    color:#fcfcfc;
-    margin:0;
+    margin: 50px;
 }
-img{
-    width: 50%;
+ul{
+    color: #ffffff;
+    display: inline;
+    margin: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
+li{
+    display:inline;
+}
+.text{
+    position: relative;
+
+}
+#sidebar {width: 150px;
+position: fixed;
+top: {text:post margin}px;
+text-align: center;
+
+}
+
+#corpo{
+    float:right;
+    text-align: right;
+    margin: 50px;
+
+  }
