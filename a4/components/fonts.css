@@ -1,0 +1,7 @@
+@font-face {
+    font-family: Dirtbag;
+    src: url(../components/DirtbagRegular.woff) format(woff);
+    src: url(../components/DirtbagRegular.woff2) format(woff2);
+font-weight: normal;
+font-style:normal;
+}
