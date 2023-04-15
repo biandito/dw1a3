@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A7 - Google Search</title>
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div id="header">
+        <div id="topbar">
+            <img id="searchbarimage" src="https://logospng.org/download/google/logo-google-256.png" />
+            <div id="searchbar" type="text">
+                <input id="searchbartext" type="text" value="DevTools" />
+                <button id="searchbarmic">
+                    <img src="images/googlemic.png" />
+                </button>
+                <button id="searchbarbutton">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+
+            <div id="boxesicon"></div>
+            <div id="bellicon"></div>
+            <img id="profileimage" src="https://cdn-icons-png.flaticon.com/128/552/552721.png" />
+        </div>
+        <div id="optionsbar">
+            <ul id="optionsmenu1">
+                <li id="optionsmenuactive">All</li>
+                <li>News</li>
+                <li>Videos</li>
+                <li>Images</li>
+                <li>Maps</li>
+                <li>More</li>
+            </ul>
+
+            <ul id="optionsmenu2">
+                <li>Settings</li>
+                <li>Tools</li>
+            </ul>
+        </div>
+    </div>
+    <div id="searchresultsarea">
+        <p id="searchresultsnumber">About 155,000 results (0.56 seconds) </p>
+        <div class="searchresult">
+            <h2>DevTools</h2>
+            <a>https://support.google.com/adsense/answer/10858959?hl=pt-BR</a> <button>▼</button>
+            <p>O Chrome DevTools é um conjunto de ferramentas para desenvolvedores da Web integradas diretamente no navegador Google Chrome.<p>
+                Essas ferramentas permitem inspecionar o HTML (DOM) renderizado e a atividade de rede das suas páginas. Você pode usar o DevTools
+                     para resolver problemas de veiculação de anúncios.</p>
+
+            </p>
+        </div>
+
+        <div class="searchresult">
+            <h2>Como Funciona o Chrome DevTools</h2>
+            <a>https://www.dz-techs.com/pt/use-chrome-devtools</a> <button>▼</button>
+            <p>O Chrome DevTools permite que você resolva problemas no site por meio de um console de bug e outras ferramentas de depuração e monitoramento.<p>
+                 Usar DevTools detecta vulnerabilidades de front-end e permite monitorar como seu site aparece em dispositivos móveis e tablets.s instantâneos para suas alterações.
+                 <p> As alterações feitas por meio do DevTools não afetam permanentemente o site. Ele exibe apenas o resultado esperado temporariamente, como se você o tivesse aplicado ao código-fonte real. Isso permite que você trabalhe da maneira que puder Faça seu site carregar mais rápido E é fácil eliminar erros sem afetar a experiência real dos visitantes. </p>
+
+        </div>
+
+        <div class="searchresult">
+            <h2>Uma lista de dicas e truques interessantes do DevTools do Chrome</h2>
+            <a>https://teech.com.br/2020/05/28/uma-lista-de-dicas-e-truques-interessantes-do-devtools-do-chrome/</a> <button>▼</button>
+            <p><b>Arraste e solte no painel Elementos</b><p>
+                No painel Elementos, você pode arrastar e soltar qualquer elemento HTML e alterar sua posição na página
+            com uma simples pesquisa. Para utilizar, basta pressionar Ctrl + P quando DevTools estiver aberto, para procurar e abrir um arquivo no seu projeto.</p>
+            <p><b>Faça referência ao elemento atualmente selecionado no console</b></p>
+            <p>Selecione um nó no painel Elements e digite $0 no console para fazer referência a ele.</p>
+            <p><b>Use o valor da última operação no console</p></b>
+            <p>Use $_ para referenciar o valor de retorno da operação anterior executada no console.</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>15 Dicas para desenvolver utilizando o Chrome DevTools            </h2>
+            <a>https://www.turbosite.com.br/blog/15-dicas-para-desenvolver-utilizando-o-chrome-devtools</a> <button>▼</button>
+            <p><b>1. Alternar rapidamente entre arquivos</b>
+            <p>Se você já usou Sublime Text, provavelmente você não pode viver sem “Go to anything”, este é um recurso essencial para alternar entre arquivos com uma simples pesquisa. 
+                Para utilizar, basta pressionar Ctrl + P (Cmd + P no Mac) quando DevTools estiver aberto, para procurar rapidamente e abrir qualquer arquivo no seu projeto.</p>
+            <p><b>2. Pesquisa no código fonte</b></p>
+            <p>Muitas vezes precisamos pesquisar uma determinada variável, função ou qualquer outro pedaço de código e não sabemos por
+            onde começar. Com este recurso você pesquisará em todos os arquivos carregados de um website. Para pesquisar em todos os arquivos, pressione Ctrl + Shift + F (Cmd + Opt + F no Mac). Uma dica é utilizar expressões regulares.</p>
+             <p><b>3. Ir para linha desejada</b></p>
+            <p>Depois que você abriu um arquivo na guia Fontes (Sources), você poderá navegar para qualquer linha pressionando Ctrl + G para Windows e Linux,
+                 (ou Cmd + L para Mac), depois digite o número da linha e pressione Enter.</p> 
+            <p><b>4. Selecionando elementos no console </b></p>
+            <p>O console DevTools suporta algumas variáveis e funções mágicas para seleção de elementos DOM:
+                    <p>- $() – Atalho para document.querySelector(). Retorna o primeiro elemento, combinando com um seletor CSS (por exemplo $(‘div’) irá retornar o primeiro elemento div na página).
+                    <p>- $$() – Atalho para document.querySelectorAll(). Retorna um array com todos elementos que condizem com o seletor css.
+                    <p>- O histórico dos cinco últimos elementos DOM selecionados no painel de elementos, $0 sendo o último acessado.    
+            <p><b>5. Utilizando múltiplas seleções</b></p>
+            <p>Outra característica do Sublime Text que é muito útil aparece novamente. Durante a edição de um arquivo você pode definir vários pontos de escrita/alteração, segue a tecla Ctrl (Cmd para Mac) e clique onde deseja iniciar a escrita,
+                 permitindo assim que você escreva em muitos lugares ao mesmo tempo. Também é possível selecionar textos segurança a tecla Ctrl e depois escrever “por cima” de forma que altere vários locais ao mesmo tempo.</p>
+            <p><b>6. Preservando log</b>
+            <p>Ao marcar a opção Preservar Log na guia Console, você pode fazer o DevTools Console persistir o log em vez de limpá-lo em cada carregamento da página. Isso é útil quando você quer investigar bugs, 
+                    que aparecem apenas antes da página ser descarregada.</p>
+            <p><b>7. Formatação de Código {} </b>
+            <p>DevTools tem um built-in de código “beautifier” que irá ajudá-lo a retornar código minimizado ao seu formato humanamente legível. O botão “Pretty Print” está localizado no canto inferior esquerdo do seu arquivo atualmente aberto na guia Fontes.
+                 Não é necessário instalar nenhum plugin para utilizar esta funcionalidade.</p>
+            <p><b>8. Dispositivos móveis</b>
+            <p>DevTools inclui um modo poderoso para o desenvolvimento de páginas para dispositivos móveis. Este vídeo do Google mostra a maioria de suas funcionalidades, tais como redimensionamento de tela,
+                 emulação de toque e simulador de problemas de rede.</p>
+            <p><b>9. Sensores de emulação de dispositivo</b>
+            <p>Outro recurso interessante do modo de dispositivos móveis é a opção para simular sensores, é possível simular telas sensíveis ao toque e acelerômetros. Você pode até mesmo falsificar sua localização geográfica.
+                 O recurso está localizado na parte inferior da guia Elementos(Elements) em Emulação(Emulation) -> Sensores(Sensors).
+            <p><b>10. Seleção de cores            </b>
+            <p>Ao clicar para selecionar uma cor no editor de estilos (CSS), será aberto uma tela para selecionar a cor, mas, se você passar o mouse sobre a sua página, o ponteiro do mouse se transformará em uma lupa para selecionar cores com precisão de pixels.
+            </div>
+        <div class="relatedsearches">
+            <h3>Searches related to computer engineering mutex concept</h3>
+            <div class="relatedlists">
+                <ul class="relatedleft">
+                    <li>chrome developter tools download</li>
+                    <li>how to open chrome developter tools</li>
+                    <li>chrome developter tools inspect</li>
+                    <li>chrome developter tools android</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pagebar">
+            <ul class="pagelist">
+                <li class="pagelistprevious">Previous</li>
+                <li class="pagelistfirst">1</li>
+                <li class="pagelistnumber">2</li>
+                <li class="pagelistnumber">3</li>
+                <li class="pagelistnumber">4</li>
+                <li class="pagelistnumber">5</li>
+                <li class="pagelistnumber">6</li>
+                <li class="pagelistnumber">7</li>
+                <li class="pagelistnumber">8</li>
+                <li class="pagelistnumber">9</li>
+                <li class="pagelistnumber">10</li>
+                <li class="pagelistnext">Next</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footerlocation">
+            <p>Somewhere, Moon </p>
+            <p> - From your phone (Location History) - Use precise location - Learn more</p>
+        </div>
+
+        <ul id="footermenu">
+            <li>Help</li>
+            <li>Send feedback</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+        </ul>
+    </div>
+</body>
+
+</html>
