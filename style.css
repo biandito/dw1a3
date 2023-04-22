@@ -26,3 +26,6 @@ a{
     text-decoration: none;
     color: rgb(250, 213, 165);
 }
+.atividades {
+    display: inline-block;
+}
