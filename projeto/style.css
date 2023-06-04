@@ -93,17 +93,17 @@ body {
   }
     #volume{
         margin-left: 10px;
-        background: url(/imagens/volume.png);
+        background: url(./imagens/volume.png);
         background-size: cover;
     }
     #media{
         margin-left: 10px;
-        background: url(/imagens/player.png);
+        background: url(./imagens/player.png);
         background-size: cover;
     }
     #segurança{
         margin-left: 10px;
-        background: url(/imagens/segurança.png);
+        background: url(./imagens/segurança.png);
         background-size: cover;
     }
 
