@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+/** css do projeto **/
+body {
+    margin: 0;
+}
+
+#windowsxp {
+    display: flex;
+    /** flex muito utilizado nesse projeto**/   
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.desktop{
+    display: flex;
+    width: 100vw;
+    background: url(/imagens/fundo.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.tarefas{
+    display: flex;
+    justify-content: space-between;
+    /** espaço entre iniciar e notificação **/
+    position: absolute;
+    /** posição em relação ao pai **/
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background: linear-gradient(
+        to bottom,
+        #245edb 0%,
+        #0c8dea 9%,
+        #245edb 18%,
+        #333 100%
+    );
+}
+
+    #iniciar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    border: none;
+    background: linear-gradient(
+      to bottom,
+      #3d973d 0%,
+      #6faf72 9%,
+      #3d973d 18%,
+      #3d973d 92%,
+      #666 100%
+    );
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #003d00;
+    margin-right:15px;
+  }
+
+  .notificacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    background: linear-gradient(
+      to bottom,
+      #0fadf4 0%,
+      #0fadf4 9%,
+      #108ae5 18%,
+      #108ae5 92%,
+      #666 100%
+    );
+  }
+  
+  .icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+    #volume{
+        margin-left: 10px;
+        background: url(/imagens/volume.png);
+        background-size: cover;
+    }
+    #media{
+        margin-left: 10px;
+        background: url(/imagens/player.png);
+        background-size: cover;
+    }
+    #segurança{
+        margin-left: 10px;
+        background: url(/imagens/segurança.png);
+        background-size: cover;
+    }
+
+    #relogio {
+        margin-right: 15px;
+        color: white;
+      /*   font-family: "VT323", monospace; */
+        font-size: 18px;
+        font-weight: bold;
+        cursor: context-menu;
+    }
+ 
