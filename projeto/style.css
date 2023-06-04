@@ -14,7 +14,7 @@ body {
     overflow: hidden;
 }
 
-.desktop{
+.desktop {
     display: flex;
     width: 100vw;
     background: url(/imagens/fundo.jpg);
