@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-flow: column;
     width: 100vw;
-    background: url(/imagens/fundo.jpg);
+    background: url(./imagens/fundo.jpg);
     background-size: cover;
     overflow: hidden;
 }
