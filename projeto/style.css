@@ -16,7 +16,7 @@ body {
     overflow: hidden;
 }
 
-.desktop {
+.area-de-trabalho {
     display: flex;
     flex-flow: column;
     width: 100vw;
@@ -122,14 +122,16 @@ body {
   text-align: center;
  }
 
-.desktop-icon img{
+.desktop-icon img {
   max-width: 100%;
 }
 
-.desktop span{
+.desktop-icon span {
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 12px;
-  text-shadow: 2px;
+  text-shadow: 2px 2x  8px black;
   cursor: context-menu;
 }
 
@@ -139,4 +141,6 @@ body {
   justify-content: center;
 
 }
+
+
  
