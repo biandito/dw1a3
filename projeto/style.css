@@ -131,7 +131,7 @@ body {
   justify-content: center;
   color: white;
   font-size: 12px;
-  text-shadow: 2px 2x  8px black;
+  text-shadow: 2px 2px 8px black;
   cursor: context-menu;
 }
 
@@ -142,5 +142,71 @@ body {
 
 }
 
+#menuIniciar {
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  bottom: 50px;
+  background: white;
+  z-index: 999;
+ border-top-right-radius: 5px;
 
+}
+
+.topoIniciar{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  border-top-right-radius: 5px;
+  background: linear-gradient(
+    to bottom,
+    #245edb 0%,
+    #0c8dea 9%,
+    #245edb 18%,
+    #245edb 100%)
+}
+
+.avatarIniciar{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-left: 15px;
+  background:url(./imagens/frog.jpg);
+  background-size: cover;
+
+}
+
+.usuarioIniciar{
+  color: white;
+  margin-left: 90px;
+  text-shadow: 2px 2px 8px black;
+
+}
+
+.mioloIniciar{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-top: 0;
+  padding-top: 0;
+}
  
+.col{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+      /*   flex 1= simetrico */
+}
+.footerIniciar{
+ display: flex;
+ width: 100%;
+ height: 60px;
+ bottom: 100px;;
+ background: linear-gradient(
+  to bottom,
+  #245edb 0%,
+  #0c8dea 9%,
+  #245edb 18%,
+  #245edb 100%;
+)}
