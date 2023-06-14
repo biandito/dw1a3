@@ -200,13 +200,63 @@ body {
 }
 .footerIniciar{
  display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ position: absolute;
  width: 100%;
- height: 60px;
- bottom: 100px;;
- background: linear-gradient(
-  to bottom,
-  #245edb 0%,
-  #0c8dea 9%,
-  #245edb 18%,
-  #245edb 100%;
-)}
+ height: 50px;
+ bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    #245edb 0%,
+    #0c8dea 9%,
+    #245edb 18%,
+    #245edb 100%
+);
+}
+.btnFooter {
+  display: flex;
+  align-items: center;
+}
+
+.btnFooter a{
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 25px;
+
+}
+
+.itemIniciar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.itemIniciar:hover {
+  background: #2e9dec;
+}
+.itemIniciar:hover span{
+  span: white;
+}
+
+.itemIniciar span>strong{
+  color:black
+}
+
+.itemIniciar:hover span>strong{
+  color:white
+}
+
+.todosProgramas{
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end;
+  width: 252px;
+  height: 60px;
+  position: absolute;
+  bottom: 60px;
+}
