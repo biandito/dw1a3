@@ -16,15 +16,16 @@ setInterval(() => {
     document.getElementById("relogio").innerHTML = hora;
 }, 60000);
 
-var desktopIcons = document.querySelectorAll(".desktop-icon");
-
-desktopIcons.forEach(function(icon) {
-    icon.addEventListener("click", function() {
-        if (this.classList.contains("selected")) {
-            this.classList.remove("selected");
-        } else {
-            this.classList.add("selected");
-        }
-    });
-});
-
+document.getElementById("iniciar").addEventListener("click", function() {
+    document.getElementById("iniciar").classList.toggle("active");
+    var menuIniciar = document.getElementById("menuIniciar");
+    menuIniciar.classList.toggle("active");
+  
+    if (menuIniciar.style.display === "none") {
+      menuIniciar.style.display = "block";
+    } else{
+      menuIniciar.style.display = "none";
+    }
+  }
+);
+ 

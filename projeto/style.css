@@ -1,234 +1,236 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /** css do projeto **/
 body {
-    margin: 0;
-    font-family: "Segoe UI";
+  margin: 0;
+  font-family: "Segoe UI";
 
 }
 
 #windowsxp {
-    display: flex;
-    /** display mais utilizado nesse projeto**/   
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+  display: flex;
+  /** display mais utilizado nesse projeto**/   
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .area-de-trabalho {
-    display: flex;
-    flex-flow: column;
-    width: 100vw;
-    background: url(https://super.abril.com.br/wp-content/uploads/2022/12/SI_bliss_site.jpg?quality=90&strip=info&w=1024);
-    background-size: cover;
-    overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  width: 100vw;
+  background: url(https://super.abril.com.br/wp-content/uploads/2022/12/SI_bliss_site.jpg?quality=90&strip=info&w=1024);
+  background-size: cover;
+  overflow: hidden;
 }
 
 .tarefas{
-    display: flex;
-    justify-content: space-between;
-    /** espaço entre iniciar e notificação **/
-    position: absolute;
-    /** posição em relação ao pai **/
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    height: 50px;
-    background: linear-gradient(
-        to bottom,
-        #245edb 0%,
-        #0c8dea 9%,
-        #245edb 18%,
-        #333 100%
-    );
+  display: flex;
+  justify-content: space-between;
+  /** espaço entre iniciar e notificação **/
+  position: absolute;
+  /** posição em relação ao pai **/
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background: linear-gradient(
+      to bottom,
+      #245edb 0%,
+      #0c8dea 9%,
+      #245edb 18%,
+      #333 100%
+  );
 }
 
-    #iniciar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 180px;
-    border: none;
-    background: linear-gradient(
-      to bottom,
-      #3d973d 0%,
-      #6faf72 9%,
-      #3d973d 18%,
-      #3d973d 92%,
-      #666 100%
-    );
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    cursor: pointer;
+  #iniciar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  border: none;
+  background: linear-gradient(
+    to bottom,
+    #3d973d 0%,
+    #6faf72 9%,
+    #3d973d 18%,
+    #3d973d 92%,
+    #666 100%
+  );
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #003d00;
+  margin-right:15px;
+}
+
+.notificação {
+  display:flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  background: linear-gradient(
+    to bottom,
+    #0fadf4 0%,
+    #0fadf4 9%,
+    #108ae5 18%,
+    #108ae5 92%,
+    #666 100%
+  );
+}
+
+.icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border: 5px;
+}
+  #volume{
+      margin-left: 10px;
+      background: url(./imagens/volume.png);
+      background-size: cover;
+  }
+  #media{
+      margin-left: 10px;
+      background: url(./imagens/player.png);
+      background-size: cover;
+  }
+  #segurança{
+      margin-left: 10px;
+      background: url(./imagens/segurança.png);
+      background-size: cover;
+  }
+
+  #relogio {
+    margin-right: 15px;
     color: white;
-    font-size: 1.5rem;
+  /*   font-family: "VT323", monospace; */
+    font-size: 18px;
     font-weight: bold;
-    text-shadow: 2px 2px 8px #003d00;
-    margin-right:15px;
+    cursor: context-menu;
   }
-
-  .notificação {
-    display:flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 280px;
-    background: linear-gradient(
-      to bottom,
-      #0fadf4 0%,
-      #0fadf4 9%,
-      #108ae5 18%,
-      #108ae5 92%,
-      #666 100%
-    );
-  }
-  
-  .icon {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-    border: 10px;
-  }
-    #volume{
-        margin-left: 10px;
-        background: url(./imagens/volume.png);
-        background-size: cover;
-    }
-    #media{
-        margin-left: 10px;
-        background: url(./imagens/player.png);
-        background-size: cover;
-    }
-    #segurança{
-        margin-left: 10px;
-        background: url(./imagens/segurança.png);
-        background-size: cover;
-    }
-
-    #relogio {
-      margin-right: 15px;
-      color: white;
-    /*   font-family: "VT323", monospace; */
-      font-size: 18px;
-      font-weight: bold;
-      cursor: context-menu;
-    }
- .desktop-icon {
-  width: 60px;
-  height: 80px;
-  padding: 15;
-  text-align: center;
- }
+.desktop-icon {
+width: 60px;
+height: 80px;
+padding: 15;
+text-align: center;
+}
 
 .desktop-icon img {
-  max-width: 100%;
+max-width: 100%;
 }
 
 .desktop-icon span {
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-size: 12px;
-  text-shadow: 2px 2px 8px black;
-  cursor: context-menu;
+display: flex;
+justify-content: center;
+color: white;
+font-size: 12px;
+text-shadow: 2px 2px 8px black;
+cursor: context-menu;
 }
 
 .desktop-icon.selected span{
-  background: #004e98;
-  display: flex;
-  justify-content: center;
+background: #004e98;
+display: flex;
+justify-content: center;
 
 }
 
 #menuIniciar {
-  width: 500px;
-  height: 500px;
-  position: fixed;
-  bottom: 50px;
-  background: white;
-  z-index: 999;
- border-top-right-radius: 5px;
+  display: none;
+  flex-flow: row wrap;
+width: 500px;
+height: 500px;
+position: fixed;
+bottom: 50px;
+background: white;
+z-index: 999;
+border-top-right-radius: 5px;
 
 }
 
 .topoIniciar{
-  display: flex;
-  align-items: center;
-  height: 100px;
-  width: 100%;
-  border-top-right-radius: 5px;
-  background: linear-gradient(
-    to bottom,
-    #245edb 0%,
-    #0c8dea 9%,
-    #245edb 18%,
-    #245edb 100%)
+display: flex;
+align-items: center;
+height: 100px;
+width: 100%;
+border-top-right-radius: 5px;
+background: linear-gradient(
+  to bottom,
+  #245edb 0%,
+  #0c8dea 9%,
+  #245edb 18%,
+  #245edb 100%)
 }
 
 .avatarIniciar{
-  width: 70px;
-  height: 70px;
-  border-radius: 10px;
-  margin-left: 15px;
-  background:url(./imagens/frog.jpg);
-  background-size: cover;
+width: 70px;
+height: 70px;
+border-radius: 10px;
+margin-left: 15px;
+background:url(./imagens/frog.jpg);
+background-size: cover;
 
 }
 
 .usuarioIniciar{
-  color: white;
-  margin-left: 90px;
-  text-shadow: 2px 2px 8px black;
+color: white;
+margin-left: 90px;
+text-shadow: 2px 2px 8px black;
 
 }
 
 .mioloIniciar{
-  display: flex;
-  width: 100%;
-  height: 500px;
-  margin-top: 0;
-  padding-top: 0;
+display: flex;
+width: 100%;
+height: 500px;
+margin-top: 0;
+padding-top: 0;
 }
- 
+
 .col{
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-      /*   flex 1= simetrico */
+display: flex;
+flex-direction: column;
+flex: 1;
+    /*   flex 1= simetrico */
 }
 .footerIniciar{
- display: flex;
- align-items: center;
- justify-content: flex-end;
- position: absolute;
- width: 100%;
- height: 50px;
- bottom: 0;
-  background: linear-gradient(
-    to bottom,
-    #245edb 0%,
-    #0c8dea 9%,
-    #245edb 18%,
-    #245edb 100%
+display: flex;
+align-items: center;
+justify-content: flex-end;
+position: absolute;
+width: 100%;
+height: 50px;
+bottom: 0;
+background: linear-gradient(
+  to bottom,
+  #245edb 0%,
+  #0c8dea 9%,
+  #245edb 18%,
+  #245edb 100%
 );
 }
 .btnFooter {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 .btnFooter a{
-  color: white;
-  text-decoration: none;
-  margin-left: 5px;
-  margin-right: 25px;
+color: white;
+text-decoration: none;
+margin-left: 5px;
+margin-right: 25px;
 
 }
 
-.itemIniciar {
-  display: flex;
+.itemIniciar{  
+  display: flex;  
   align-items: center;
   width: 100%;
   height: 60px;
@@ -236,19 +238,32 @@ body {
   cursor: pointer;
 }
 
-.itemIniciar:hover {
-  background: #2e9dec;
-}
-.itemIniciar:hover span{
-  span: white;
+.itemIniciar:hover{
+  background: #2498ec; 
 }
 
-.itemIniciar span>strong{
-  color:black
+.itemIniciar:hover span{
+  color: white; 
 }
 
 .itemIniciar:hover span>strong{
-  color:white
+  color: white; 
+}
+
+.itemIniciar:hover .bold-blue{
+  color: white !important;
+}
+
+.itemIniciar span{  
+  margin-left:10px;
+  color: #666;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+
+.itemIniciar span>strong{
+  color: black;
 }
 
 .todosProgramas{
@@ -257,6 +272,27 @@ body {
   justify-content: flex-end;
   width: 252px;
   height: 60px;
+/*   background: red; */
   position: absolute;
   bottom: 60px;
+}
+
+
+.todosProgramas strong{
+  margin-right: 65px;
+}
+
+.todosProgramas strong::before{
+   content:"\A";
+    border-style: solid;
+    border-width: 15px 20px 15px 0;
+    border-color: transparent #3d973d transparent transparent; 
+    position: absolute;
+    right: 25px;
+    top:13px;
+    transform: rotate(180deg); 
+}
+.bold-blue{
+  font-weight:bold;
+  color: #0C214C !important;
 }
