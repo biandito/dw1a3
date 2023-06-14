@@ -239,7 +239,7 @@ margin-right: 25px;
 }
 
 .itemIniciar:hover{
-  background: #0c8dea; 
+  background: #2498ec; 
 }
 
 .itemIniciar:hover span{
@@ -292,7 +292,6 @@ margin-right: 25px;
     top:13px;
     transform: rotate(180deg); 
 }
-
 .bold-blue{
   font-weight:bold;
   color: #0C214C !important;

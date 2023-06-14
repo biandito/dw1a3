@@ -23,9 +23,9 @@ document.getElementById("iniciar").addEventListener("click", function() {
   
     if (menuIniciar.style.display === "none") {
       menuIniciar.style.display = "block";
-    } else {
+    } else{
       menuIniciar.style.display = "none";
     }
-  });
-  
+  }
+);
  
