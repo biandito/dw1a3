@@ -58,6 +58,7 @@ var okButton = document.querySelector(".ok");
 okButton.addEventListener("click", function() {
   var error = document.getElementById("error");
   error.style.display = "none";
+  
 });
 
  
