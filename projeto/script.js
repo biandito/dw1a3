@@ -28,4 +28,36 @@ document.getElementById("iniciar").addEventListener("click", function() {
     }
   }
 );
+
+document.getElementById("ie").addEventListener("click", function() {
+  document.getElementById("ie").classList.toggle("active");
+  var error = document.querySelector(".error");
+  error.classList.toggle("active");
+
+  if (error.style.display === "none") {
+    error.style.display = "block";
+  } else {
+    error.style.display = "none";
+  }
+});
+
+document.getElementById("ie-iniciar").addEventListener("click", function() {
+  document.getElementById("ie-iniciar").classList.toggle("active");
+  var error = document.querySelector(".error");
+  error.classList.toggle("active");
+
+  if (error.style.display === "none") {
+    error.style.display = "block";
+  } else {
+    error.style.display = "none";
+  }
+});
+
+var okButton = document.querySelector(".ok");
+
+okButton.addEventListener("click", function() {
+  var error = document.getElementById("error");
+  error.style.display = "none";
+});
+
  
