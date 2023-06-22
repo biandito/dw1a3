@@ -1,6 +1,9 @@
 body {
     background-color: white;
+    margin: 10px;
+    padding: 10px;
   }
+  
   
   .container {
     display: flex;
@@ -9,6 +12,7 @@ body {
     justify-content: center;
     height: 100vh;
     color: #53AFFE;
+
   }
   
   .form-group {
