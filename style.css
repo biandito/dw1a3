@@ -6,25 +6,30 @@ body{
     margin:0;
 }
 h1{
-    font-size: 40px;
+    font-size: 25px;
 }
 h2{
-    font-size: 30px;
+    font-size: 20px;
     color:#faffb4
 }
 p{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1,5;
 }
+p:hover {
+    color: rgb(252, 153, 31);}
 ul{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     padding-left: 0;
 }
 a{
     text-decoration: none;
     color: rgb(250, 213, 165);
+}
+a:hover {
+    color: rgb(252, 153, 31);
 }
 .atividades {
     display: inline-block;
